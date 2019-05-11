@@ -1,6 +1,6 @@
 # Jigsaw Seed
 
-这是组件库[Jigsaw](https://github.com/rdkmaster/jigsaw)的种子工程，适用于开发**移动端浅色系**的app，建议所有新增的app都以这个工程作为种子开始构建。[具体步骤看这里](http://rdk.zte.com.cn/components/guide/quick-start)。
+这是组件库[Jigsaw](https://github.com/rdkmaster/jigsaw)的种子工程，适用于开发**移动端深色系**的app，建议所有新增的app都以这个工程作为种子开始构建。[具体步骤看这里](http://rdk.zte.com.cn/components/guide/quick-start)。
 
 **所有可用的种子工程**
 
