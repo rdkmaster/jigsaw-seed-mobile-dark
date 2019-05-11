@@ -3,7 +3,7 @@ import {NgModule} from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {TranslateModule, TranslateService} from "@ngx-translate/core";
-import {JigsawModule} from '@rdkmaster/jigsaw-mobile';
+import {JigsawModule, JigsawTheme} from '@rdkmaster/jigsaw-mobile';
 
 import {AppComponent} from './app.component';
 
@@ -34,5 +34,7 @@ export class AppModule {
         const lang: string = translateService.getBrowserLang();
         translateService.setDefaultLang(lang);
         translateService.use(lang);
+
+        JigsawTheme.majorStyle = 'dark';
     }
 }
